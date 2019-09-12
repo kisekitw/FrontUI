@@ -16,11 +16,12 @@
 
     <!--w3school-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!--w3school-->
-    <title> Pass Team UI Demo </title>
+    <title> PaaS Team UI Demo </title>
 </head>
 
 <body>
@@ -69,7 +70,8 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-fw fa-folder"></i>
                             <span>控制台</span>
                         </a>
@@ -145,26 +147,31 @@
 
                                     <ul class="nav nav-tabs" id="createTab" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="#infoPanel" role="tab">基本訊息</a>
+                                            <a class="nav-link active" data-toggle="tab" href="#infoPanel"
+                                                role="tab">基本訊息</a>
 
                                         <li>
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="tab" href="#envPanel" role="tab">環境變量</a>
                                         <li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#DataVolumePanel" role="tab">數據卷</a>
+                                            <a class="nav-link" data-toggle="tab" href="#DataVolumePanel"
+                                                role="tab">數據卷</a>
 
                                         <li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#DeploymentconfigurationPanel" role="tab">部署配置</a>
+                                            <a class="nav-link" data-toggle="tab" href="#DeploymentconfigurationPanel"
+                                                role="tab">部署配置</a>
 
                                         <li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#LimitPanel" role="tab">實例資源限制</a>
+                                            <a class="nav-link" data-toggle="tab" href="#LimitPanel"
+                                                role="tab">實例資源限制</a>
 
                                         <li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#PortSecurityPanel" role="tab">端口安全組</a>
+                                            <a class="nav-link" data-toggle="tab" href="#PortSecurityPanel"
+                                                role="tab">端口安全組</a>
 
 
                                         <li>
@@ -178,14 +185,26 @@
                                     <div class="tab-content mt-2">
                                         <div class="tab-pane fade show active" id="infoPanel" role="tabpanel">
                                             <div class="form-group">
-                                                <label for="servicesName">服務名稱 <a href="#" title="只能包含小寫字母，數字及符號('-')，且不以分隔符號為開頭與結尾" data-toggle="tooltip" data-placement="right"><i class="fa fa-question-circle"></i></a></label>
+                                                <label for="servicesName">服務名稱 <a href="#"
+                                                        title="只能包含小寫字母，數字及符號('-')，且不以分隔符號為開頭與結尾" data-toggle="tooltip"
+                                                        data-placement="right"><i
+                                                            class="fa fa-question-circle"></i></a></label>
 
-                                                <input type="text" class="form-control form-control-lg" placeholder="例: My App" id="sevicesName">
+                                                <input type="text" class="form-control form-control-lg"
+                                                    placeholder="例: My App" id="sevicesName">
 
-                                                <label for="containerMirror">容器鏡像 <a href="#" title="格視為倉庫位置/鏡像名稱:[版本]，如無指定則默認為latest" data-toggle="popover"><i class="fa fa-question-circle"></i></a></label>
-                                                <input type="text" class="form-control form-control-lg" placeholder="例: 10.57.241.229/davis/myapp:v2.0" id='containerMirror'></input>
-                                                <label for="containerPort">容器端口 <a href="#" title="服務監聽端口將與容器督口相同，協議為TCP" data-toggle="popover"><i class="fa fa-question-circle"></i></a></label>
-                                                <input type="text" class="form-control form-control-lg" placeholder="例: 8080" id='containerPort'></input>
+                                                <label for="containerMirror">容器鏡像 <a href="#"
+                                                        title="格視為倉庫位置/鏡像名稱:[版本]，如無指定則默認為latest"
+                                                        data-toggle="popover"><i
+                                                            class="fa fa-question-circle"></i></a></label>
+                                                <input type="text" class="form-control form-control-lg"
+                                                    placeholder="例: 10.57.241.229/davis/myapp:v2.0"
+                                                    id='containerMirror'></input>
+                                                <label for="containerPort">容器端口 <a href="#"
+                                                        title="服務監聽端口將與容器督口相同，協議為TCP" data-toggle="popover"><i
+                                                            class="fa fa-question-circle"></i></a></label>
+                                                <input type="text" class="form-control form-control-lg"
+                                                    placeholder="例: 8080" id='containerPort'></input>
                                                 <!--<span>服務監聽端口將與容器督口相同，協議為TCP</span>-->
                                             </div>
 
@@ -197,21 +216,25 @@
                                                 <form class="form-inline">
                                                     <div class="form-group">
                                                         <p>變量：</p>
-                                                        <input type="text" class="form-control" id="path" placeholder="例:PATH" name="path">
+                                                        <input type="text" class="form-control" id="path"
+                                                            placeholder="例:PATH" name="path">
                                                     </div>
                                                     <div class="form-group">
                                                         <p>值：</p>
-                                                        <input type="text" class="form-control" id="pwd" placeholder="例:/user/local/bin/home/centos/bin" name="path">
+                                                        <input type="text" class="form-control" id="pwd"
+                                                            placeholder="例:/user/local/bin/home/centos/bin" name="path">
                                                     </div>
                                                 </form>
                                                 <form class="form-inline">
                                                     <div class="form-group">
 
-                                                        <input type="text" class="form-control" id="path" placeholder="例:App version" name="path">
+                                                        <input type="text" class="form-control" id="path"
+                                                            placeholder="例:App version" name="path">
                                                     </div>
                                                     <div class="form-group">
 
-                                                        <input type="text" class="form-control" id="version" placeholder="例：V5.0.1-bata" name="version">
+                                                        <input type="text" class="form-control" id="version"
+                                                            placeholder="例：V5.0.1-bata" name="version">
                                                     </div>
                                                 </form>
 
@@ -234,13 +257,15 @@
                                                     </select><br>
                                                     <br>
 
-                                                    <label for="exampleInputFile"><i class="fa fa-plus-circle" aria-hidden="true"></i>從配置項匯入</label>
+                                                    <label for="exampleInputFile"><i class="fa fa-plus-circle"
+                                                            aria-hidden="true"></i>從配置項匯入</label>
                                                     <div class="form-group">
                                                         <input type="file" class="form-control-file border" name="file">
                                                     </div>
                                                     <button type="submit" class="btn btn-primary">Submit</button>
 
-                                                    <small id="fileHelp" class="form-text text-muted">Select a file to use as the config </small>
+                                                    <small id="fileHelp" class="form-text text-muted">Select a file to
+                                                        use as the config </small>
                                             </div>
 
 
@@ -251,23 +276,31 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingOne">
                                                         <h5 class="mb-0">
-                                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                                href="#collapseOne" aria-expanded="true"
+                                                                aria-controls="collapseOne">
 
-                                                                <label>節點本地目錄 <a href="#" title="如節點不存在該目錄，會自動建立" data-toggle="tooltip" data-placement="right"><i class="fa fa-question-circle"></i></a></label>
+                                                                <label>節點本地目錄 <a href="#" title="如節點不存在該目錄，會自動建立"
+                                                                        data-toggle="tooltip" data-placement="right"><i
+                                                                            class="fa fa-question-circle"></i></a></label>
                                                             </a>
                                                         </h5>
                                                     </div>
 
-                                                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                                    <div id="collapseOne" class="collapse" role="tabpanel"
+                                                        aria-labelledby="headingOne">
                                                         <div class="card-block">
                                                             <div class="form-group">
                                                                 <div class="form-group">
                                                                     <p>名稱：</p>
-                                                                    <input type="text" class="form-control" id="path" placeholder="例:test-local-vol" name="path">
+                                                                    <input type="text" class="form-control" id="path"
+                                                                        placeholder="例:test-local-vol" name="path">
                                                                     <p>節點路徑：</p>
-                                                                    <input type="text" class="form-control" id="path" placeholder="例:/tmp/node_share" name="path">
+                                                                    <input type="text" class="form-control" id="path"
+                                                                        placeholder="例:/tmp/node_share" name="path">
                                                                     <p>容器掛載路徑：</p>
-                                                                    <input type="text" class="form-control" id="path" placeholder="例:/mnt/local/vol" name="path">
+                                                                    <input type="text" class="form-control" id="path"
+                                                                        placeholder="例:/mnt/local/vol" name="path">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -276,22 +309,29 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingTwo">
                                                         <h5 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            <a class="collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion" href="#collapseTwo"
+                                                                aria-expanded="false" aria-controls="collapseTwo">
                                                                 NFS
                                                             </a>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div id="collapseTwo" class="collapse" role="tabpanel"
+                                                        aria-labelledby="headingTwo">
                                                         <div class="card-block">
                                                             <div class="form-group">
                                                                 <p>名稱：</p>
-                                                                <input type="text" class="form-control" id="path" placeholder="例:test-nfs-vol" name="path">
+                                                                <input type="text" class="form-control" id="path"
+                                                                    placeholder="例:test-nfs-vol" name="path">
                                                                 <p>主機：</p>
-                                                                <input type="text" class="form-control" id="path" placeholder="例:10.57.241.229" name="path">
+                                                                <input type="text" class="form-control" id="path"
+                                                                    placeholder="例:10.57.241.229" name="path">
                                                                 <p>路徑：</p>
-                                                                <input type="text" class="form-control" id="path" placeholder="例: /home/nfs/" name="path">
+                                                                <input type="text" class="form-control" id="path"
+                                                                    placeholder="例: /home/nfs/" name="path">
                                                                 <p>容器掛載路徑：</p>
-                                                                <input type="text" class="form-control" id="path" placeholder="例:/mnt/nfs/vol" name="path">
+                                                                <input type="text" class="form-control" id="path"
+                                                                    placeholder="例:/mnt/nfs/vol" name="path">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -299,12 +339,15 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingThree">
                                                         <h5 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            <a class="collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion" href="#collapseThree"
+                                                                aria-expanded="false" aria-controls="collapseThree">
                                                                 配置項
                                                             </a>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                    <div id="collapseThree" class="collapse" role="tabpanel"
+                                                        aria-labelledby="headingThree">
                                                         <div class="card-block">
                                                             <div class="form-group">
                                                                 <label> Choose a config </label>
@@ -317,7 +360,7 @@
                                                                     <option>Config 5 - Config 5</option>
                                                                 </select>
                                                             </div>
-                                                           
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -325,7 +368,8 @@
                                         </div>
                                         <div class="tab-pane fade" id="DeploymentconfigurationPanel" role="tabpanel">
                                             <h4>部署實例策略</h4>
-                                            <div id="scheduleAccordion" class="mb-3" role="tablist" aria-multiselectable="true">
+                                            <div id="scheduleAccordion" class="mb-3" role="tablist"
+                                                aria-multiselectable="true">
                                                 <div class="form-check-inline">
                                                     <label class="form-check-label">
                                                         <input type="checkbox" class="form-check-input" value=""> 一般
@@ -336,7 +380,7 @@
                                                         <input type="checkbox" class="form-check-input" value="">自動伸縮
                                                     </label>
                                                 </div>
-                                               <!-- <div class="card">
+                                                <!-- <div class="card">
 
                                                     <div id="scheduleAccordioncollapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                                                         <div class="card-block">
@@ -389,18 +433,23 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingThree">
                                                         <h5 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" data-parent="#scheduleAccordion" href="#scheduleAccordioncollapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            <a class="collapsed" data-toggle="collapse"
+                                                                data-parent="#scheduleAccordion"
+                                                                href="#scheduleAccordioncollapseThree"
+                                                                aria-expanded="false" aria-controls="collapseThree">
                                                                 自動伸縮
                                                             </a>
                                                         </h5>
                                                     </div>
-                                                    <div id="scheduleAccordioncollapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                    <div id="scheduleAccordioncollapseThree" class="collapse"
+                                                        role="tabpanel" aria-labelledby="headingThree">
                                                         <div class="card-block">
 
                                                             <div class="form-group row">
                                                                 <div class="col-10">
                                                                     <form>
-                                                                        目標CPU使用率：(%) <input type="number" name="quantity" min="1" max="100">
+                                                                        目標CPU使用率：(%) <input type="number"
+                                                                            name="quantity" min="1" max="100">
                                                                         <input type="submit">
                                                                     </form>
                                                                 </div>
@@ -408,7 +457,8 @@
                                                             <div class="form-group row">
                                                                 <div class="col-10">
                                                                     <form>
-                                                                        最小實例數： <input type="number" name="quantity" min="1" max="5">
+                                                                        最小實例數： <input type="number" name="quantity"
+                                                                            min="1" max="5">
                                                                         <input type="submit">
                                                                     </form>
 
@@ -417,7 +467,8 @@
                                                             <div class="form-group row">
                                                                 <div class="col-10">
                                                                     <form>
-                                                                        最大實例數： <input type="number" name="quantity" min="1" max="5">
+                                                                        最大實例數： <input type="number" name="quantity"
+                                                                            min="1" max="5">
                                                                         <input type="submit">
                                                                     </form>
                                                                 </div>
@@ -430,11 +481,13 @@
                                         </div>
                                         <div class="tab-pane fade" id="LimitPanel" role="tabpanel">
                                             <h4>Review</h4>
-                                            <button class="btn btn-primary btn-block" id="activate">on going... thank you! </button>
+                                            <button class="btn btn-primary btn-block" id="activate">on going... thank
+                                                you! </button>
                                         </div>
                                     </div>
                                     <div class="progress mt-5">
-                                        <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Step 1 of 7</div>
+                                        <div class="progress-bar" role="progressbar" style="width: 20%"
+                                            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Step 1 of 7</div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -485,18 +538,21 @@
     </div>
     </div>
 
-    
+
 
     <!-- Footer -->
     <footer class="text-center">
         <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a><br><br>
-        <p>Made By <a href="https://www.foxconn.com/" data-toggle="tooltip" title="Visit us ">https://www.foxconn.com/</a></p>
+        <p>Made By <a href="https://www.foxconn.com/" data-toggle="tooltip"
+                title="Visit us ">https://www.foxconn.com/</a></p>
     </footer>
 
     <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-   
-</body></html>
+
+</body>
+
+</html>
